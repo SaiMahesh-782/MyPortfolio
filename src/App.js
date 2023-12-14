@@ -1,25 +1,55 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Outlet, createBrowserRouter } from 'react-router-dom';
 import './App.css';
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
+import { Home } from './Components/Home';
+import Projects from './Components/Projects';
+import Contact from './Components/Contact';
+import About from './Components/About';
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Outlet />
+      <Footer />
+    </>
   );
-}
+};
 
-export default App;
+
+const AppRouter = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    children: [
+      {
+        path: '/', // Adjust the case to match your file name
+        element: <Home />,
+      },
+      {
+        path: '/About', // Adjust the case to match your file name
+        element: <About />,
+      },
+      {
+        path: '/Projects', // Adjust the case to match your file name
+        element: <Projects />,
+      },
+      {
+        path: '/Contact', // Adjust the case to match your file name
+        element: <Contact />,
+      },
+   
+    ]
+      },
+    ],
+  
+);
+export default AppRouter;
+
+
+
+
