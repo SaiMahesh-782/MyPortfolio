@@ -43,7 +43,7 @@ const About = () => {
       Hi, I am Sai Mahesh, a Software Engineer with 2 years of experience in building tech products. I have experience in working in multiple domains, including, but not limited to E-commerce and Healthcare.
     </h3>
     <h3>
-      Experienced in React.js,  Node.js, Express.js, Redux, JavaScript, Fabric.js, MySQL, HTML5, CSS, Tailwind CSS,  and Basic knowledge in AWS.
+      Experienced in React.js,  Node.js, Express.js, Redux, JavaScript, MySQL, HTML5, CSS, Tailwind CSS,  and Basic knowledge in AWS.
       </h3>
     <h3>
       Highly skilled in building complex, large-scale, and performant web applications. I am a passionate engineer who strives to build pixel-perfect designs and has a strong aptitude for learning new technologies.

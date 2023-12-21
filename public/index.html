@@ -29,6 +29,21 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script>
+      function checkWindowSize() {
+        if (window.innerWidth <= 768) {
+          window.location.href = '/not-supported.html'; // Redirect to a not supported page
+        }
+      }
+    
+      // Check window size on initial load
+      checkWindowSize();
+    
+      // Attach event listener to check window size on resize
+      window.addEventListener('resize', checkWindowSize);
+    </script>
+    
+    
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
