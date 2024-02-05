@@ -16,14 +16,14 @@ const Projects = () => {
       </div>
       <div className="project-list">
         <ProjectCard cardimage={TaskManager} 
-        carddescription="A Task Manager is a digital tool designed to streamline and enhance task organization and productivity. Users can create, categorize, and prioritize tasks, set deadlines, and monitor progress. With features like collaboration, notifications, and calendar integration, it facilitates efficient teamwork and ensures tasks are completed in a timely manner, making 
+        carddescription="A Task Manager is a digital tool designed to streamline and enhance task organization and productivity. Users can create, categorize, and prioritize tasks, set deadlines, and monitor progress. With features like collaboration, and calendar integration, it facilitates efficient teamwork and ensures tasks are completed in a timely manner, making 
         it an essential tool for individuals and teams striving for effective task management. "
         Github="https://github.com/SaiMahesh-782/TasksT"
         Online="https://saimaheshtask.netlify.app"
         cardtech="MERN STACK,Tailwind CSS"
         />
         <ProjectCard cardimage={PIC} 
-         carddescription="A food app which takes imformation about the restaurant and available items from yhee LIVE API and show in the form of cards ."
+         carddescription="A food app which takes information about the restaurant and available items from the LIVE API and show in the form of cards ."
          Github="https://github.com/SaiMahesh-782/Foodapp"
          Online="https://saimaheshfoodapp.netlify.app/"
          cardtech="React ,Redux, TailwindCSS"/>
