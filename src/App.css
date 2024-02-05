@@ -183,7 +183,7 @@ textarea {
   height: 40px;
 }
 
-button {
+.contact-btn {
   background-color: green;
   color: #fff;
   padding: 10px 20px;
@@ -196,7 +196,7 @@ button {
   margin-top: 20px;
 }
 
-button:hover {
+.contact-btn:hover {
   background-color: red;
 }
 
@@ -212,9 +212,168 @@ button:hover {
   margin-top: 25px;
 }
 
+/* project */
 
-@media screen and (max-width: 768px) {
-  body {
-    display: none;
+.project-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 550px;
+  transition: transform 0.3s ease; /* Added for smooth transition on hover */
+  position: relative;
+}
+
+.project-container:hover {
+  transform: scale(1.1); /* Transpose with 1.5 on hover */
+  cursor: pointer;
+}
+.card-description{
+ 
+  margin: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+
+}
+.card-tech{
+  margin: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+}
+
+.project-list {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ /* Added for horizontal scroll if the content exceeds the screen width */
+}
+
+
+.project-image {
+  width: 90%;
+  height: auto;
+  margin: 15px;
+  padding: 5px;
+  height: 200px;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
+  padding-bottom: 1px;
+}
+
+.project-btn {
+  padding: 8px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.project-btn:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+
+.project-buttons {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  width: 100%;
+}
+
+.project-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .logos {
+    height: 8%; /* Adjust as needed */
+    width: 8%; /* Adjust as needed */
+    padding-left: 10px;
+    padding-top: 2px;
+    margin-top: -29px;
+  }
+
+  .right-align > ul {
+    margin-right: 10px;
+  }
+
+  .Link li {
+    padding: 10px;
+    font-size: 16px; /* Adjust as needed */
+  }
+
+  .HomeContainer {
+    padding: 10px;
+  }
+
+  .h-3, .Name {
+    margin-left: 10px;
+  }
+
+  #Submit-button1, #Submit-button2 {
+    margin-left: 10px;
+    width: 150px; /* Adjust as needed */
+  }
+
+  .Aboutmainimage {
+    margin-top: 0;
+    height: auto;
+  }
+
+  .About-me {
+    flex-direction: column;
+  }
+
+  .left-align {
+    margin-right: 0;
+  }
+
+  .skills-container h1 {
+    margin-top: 10px;
+  }
+
+  .skills .skillimage {
+    height: 80px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .Form-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+
+  input, textarea {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .contact-btn {
+    margin-left: 10px;
+    width: 100%;
+  }
+
+  .footer h4 {
+    margin-left: 10px;
   }
 }
