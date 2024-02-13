@@ -24,7 +24,7 @@ const Navbar=()=>{
             <Link className="Link" to="/Contact">
             <li >Contact</li>
             </Link>
-            <Link className="Link" to="https://drive.google.com/file/d/1fpZHOLruQkPGJiDa_Yutm9PrGFe3H9-X/view?usp=drive_link">
+            <Link className="Link" to="https://drive.google.com/file/d/1neAN0K72Q95aoVTcC20WpZPHVBhkfB5I/view?usp=sharing">
             <li >Resume</li>
             </Link>
             </ul>
