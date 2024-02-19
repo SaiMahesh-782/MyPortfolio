@@ -3,17 +3,18 @@ import Homeimage from './images/Homeimage.jpg';
 
 export const Home = () => {
   const [title, setTitle] = useState("");
-  const titles = ["Full stack developer", "React JS developer"];
+  
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
+    const titles = ["Full stack developer", "React JS developer"];
     const interval = setInterval(() => {
       setTitle(titles[index]);
       setIndex((prevIndex) => (prevIndex === 0 ? 1 : 0));
     }, 1000); // Switch every 2 seconds
 
     return () => clearInterval(interval);
-  }, [index, titles]);
+  }, [index, title]);
 
   return (
     <>
