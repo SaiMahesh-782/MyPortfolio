@@ -33,7 +33,7 @@ const About = () => {
     <img src={images[currentImageIndex]} alt="imageI" className='Aboutmainimage' />
 
     <div className="About-Container">
-    <h2>About Me</h2>
+    {/* <h2>About Me</h2>
     <div className="About-me">
   <div className="left-align">
     <img src={pic} alt="" />
@@ -49,8 +49,34 @@ const About = () => {
       Highly skilled in building complex, large-scale, and performant web applications. I am a passionate engineer who strives to build pixel-perfect designs and has a strong aptitude for learning new technologies.
     </h3>
   </div>
+  </div> */}
+  
+  <h1>About me</h1>
+   
+   <div className="About-me">
+    <div className="left-align">
+    <p>
+      Hi, I am Sai Mahesh, a Software Engineer with 2 years of experience in building tech products. I have experience in working in multiple domains, including, but not limited to E-commerce.
+      Experienced in React.js,  Node.js, Express.js, Redux, JavaScript, MySQL, HTML5, CSS, Tailwind CSS,  and Basic knowledge in AWS.
+      Highly skilled in building complex, large-scale, and performant web applications. I am a passionate engineer who strives to build pixel-perfect designs and has a strong aptitude for learning new technologies.
+    </p>
+
+    
+
+    
+    
+    </div>
+    <div className="right-align"> 
+
+    <img src={pic} alt="" />    
+
+    
+    
+    </div>
   </div>
 </div>
+
+
 
 
     <div className="skills-container">
