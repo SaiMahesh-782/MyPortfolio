@@ -216,6 +216,11 @@ word-break: break-all;
  }
  .contact-left{
   color: white;
+  margin-left: 20px;
+ }
+
+ .contact-left h3,h2{
+  font-family: sans-serif;;
  }
 
  .Form-container {
@@ -224,11 +229,24 @@ word-break: break-all;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  display: flex;
+  flex-direction: row;
 }
 
+.contact>h2{
+  text-align: center;
+  color: white;
+}
 
+form>h2{
+  text-align: center;
+  color: white;
+  /* margin-right: 150px; */
+  margin-left: 250px;
+}
 input,
 textarea {
+ 
   width: 460px;
   padding: 8px;
   margin-bottom: 16px;
@@ -236,8 +254,7 @@ textarea {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  margin-left: 350px;
-  margin-top: 20px;
+  margin-left: 250px;
   height: 40px;
 }
 
