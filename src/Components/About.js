@@ -88,7 +88,7 @@ const About = () => {
       <SkillsCard src={JS} name="Javasript" />
       <SkillsCard src={Node} name="Node JS" />
       <SkillsCard src={Express} name="Express" />
-      <SkillsCard src={React} name="React" />
+      <SkillsCard src={Reat} name="React" />
       <br />
       <SkillsCard src={Mongo} name="Mongo" />
       <SkillsCard src={SQL} name="SQL" />
