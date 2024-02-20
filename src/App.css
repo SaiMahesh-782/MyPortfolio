@@ -121,15 +121,17 @@ text-align: justify;
 word-break: break-all;
 }
 .left-align p{
-  font-size: larger;
+ 
   text-align: justify;
     word-break: break-all;
-    font-family: sans-serif;
+    font-family: system-ui;
+    font-size: x-large;
+
 }
 
 .right-align img{
   height: 400px;
-  margin-right: 20px;
+  margin-right: 27px;
   border-radius: 15px;
     box-shadow: inset 0 1px 1px 0 hsla(0,0%,100%,.1), 0 50px 100px -20px rgba(50,50,93,.25), 0 30px 60px -30px rgba(0,0,0,.3);
     cursor: pointer;
@@ -183,12 +185,27 @@ word-break: break-all;
 
 }
 
+.skills-card{
+  padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    height: 100px;
+    width: 250px;
+    border: none;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px 3px #0003;
+}
+.skills-card img{
+  height: 79px;
+}
+
  
 
 .skills-container{
-  width: 100%;
-  height: 400px;
-  background-color: rgb(210, 237, 247);
+  width: 100%
   
 }
 
@@ -242,7 +259,7 @@ form>h2{
   text-align: center;
   color: white;
   /* margin-right: 150px; */
-  margin-left: 250px;
+  margin-left: 100px;
 }
 input,
 textarea {

@@ -15,6 +15,7 @@ import Mongo from './images/Mongo db.png'
 import Python from './images/Python.jpg'
 import SQL from './images/SQL.png'
 import java from './images/java.png'
+import SkillsCard from './SkillsCard';
 
 const About = () => {
   const images = [ Skills, Experience];
@@ -30,17 +31,17 @@ const About = () => {
 
   return (
     <>
-    <img src={images[currentImageIndex]} alt="imageI" className='Aboutmainimage' />
+    <img src={images[currentImageIndex]} alt='' name="imageI" className='Aboutmainimage' />
 
     <div className="About-Container">
     {/* <h2>About Me</h2>
     <div className="About-me">
   <div className="left-align">
-    <img src={pic} alt="" />
+    <SkillsCard src={pic} name="" />
   </div>
   <div className="About-right">
     <h3>
-      Hi, I am Sai Mahesh, a Software Engineer with 2 years of experience in building tech products. I have experience in working in multiple domains, including, but not limited to E-commerce and Healthcare.
+      Hi, I am Sai Mahesh, a Software Engineer with 2 years of experience in building tech products. I have experience in working in multiple domains, including, but not limited to E-commerce and Henamehcare.
     </h3>
     <h3>
       Experienced in React.js,  Node.js, Express.js, Redux, JavaScript, MySQL, HTML5, CSS, Tailwind CSS,  and Basic knowledge in AWS.
@@ -56,7 +57,7 @@ const About = () => {
    <div className="About-me">
     <div className="left-align">
     <p>
-      Hi, I am Sai Mahesh, a Software Engineer with 2 years of experience in building tech products. I have experience in working in multiple domains, including, but not limited to E-commerce.
+      Hi, I am Sai Mahesh, a Software Engineer with 2 years of experience in building tech products. I have experience in working in multiple domains, including henamehcare projects, but not limited to E-commerce.
       Experienced in React.js,  Node.js, Express.js, Redux, JavaScript, MySQL, HTML5, CSS, Tailwind CSS,  and Basic knowledge in AWS.
       Highly skilled in building complex, large-scale, and performant web applications. I am a passionate engineer who strives to build pixel-perfect designs and has a strong aptitude for learning new technologies.
     </p>
@@ -68,7 +69,7 @@ const About = () => {
     </div>
     <div className="right-align"> 
 
-    <img src={pic} alt="" />    
+    <img src={pic} alt=""name="" />    
 
     
     
@@ -82,19 +83,19 @@ const About = () => {
     <div className="skills-container">
       <h1>SKILLS</h1>
       <div className="skills">
-      <img src={HTML} className="skillimage" alt="Himage" />
-      <img src={CSS} className="skillimage" alt="CSS" />
-      <img src={JS} className="skillimage" alt="JS" />
-      <img src={Node} className="skillimage" alt="N" />
-      <img src={Express} className="skillimage" alt="E" />
-      <img src={Reat} className="skillimage" alt="R" />
+      <SkillsCard src={HTML} name="HTML" />
+      <SkillsCard src={CSS} name="CSS" />
+      <SkillsCard src={JS} name="Javasript" />
+      <SkillsCard src={Node} name="Node JS" />
+      <SkillsCard src={Express} name="Express" />
+      <SkillsCard src={React} name="React" />
       <br />
-      <img src={Mongo} className="skillimage" alt="M" />
-      <img src={SQL} className="skillimage" alt="S" />
-      <img src={java} className="skillimage" alt="J" />
-      <img src={Python} className="skillimage" alt="P" />
-      <img src={C} className="skillimage" alt="C" />
-      <img src={AWS} className="skillimage" alt="AW" />
+      <SkillsCard src={Mongo} name="Mongo" />
+      <SkillsCard src={SQL} name="SQL" />
+      <SkillsCard src={java} name="java" />
+      <SkillsCard src={Python} name="Python" />
+      <SkillsCard src={C} name="C" />
+      <SkillsCard src={AWS} name="AWS" />
     </div>
 
     </div>
