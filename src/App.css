@@ -215,7 +215,7 @@ word-break: break-all;
  .skills {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Adjust as needed */
+/*   justify-content: space-between;  */
 }
 
 .skillimage{
